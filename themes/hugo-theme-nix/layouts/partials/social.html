@@ -1,3 +1,6 @@
+{{ with .Site.Params.GoogleScholarID }}
+<a href="https://scholar.google.com/citations?user={{.}}" title="Google Scholar"><i class="ai ai-google-scholar fa-3x" aria-hidden="true"></i></a>
+{{ end }}
 {{ with .Site.Params.GnuPGFingerprint }}
 <a href="https://keys.openpgp.org/search?q={{.}}" title="GPG"><i class="fas fa-unlock-alt fa-3x" aria-hidden="true"></i></a>
 {{ end }}
