@@ -1,0 +1,31 @@
+baseurl = "http://example.org/"
+title = "Duco Veen"
+theme = "hugo-theme-nix"
+languageCode = "en-us"
+
+#[menu]
+#  [[menu.header]]
+#    name = "post"
+#    weight = 0
+#    url = "post"
+#  [[menu.header]]
+#    name = "about"
+#    weight = 1
+#    url = "about"
+
+[params]
+  GithubID = "https://github.com/VeenDuco/"
+  # TwitterID = "your_twitter"
+  LinkedInID = "https://www.linkedin.com/in/duco-veen-162931b4/"
+  # MediumID = "your_medium"
+  # SpotifyID = "your_spotify"
+  # SoundcloudID = "your_soundcloud"
+  # YoutubeID = "your_youtube"
+  # TelegramID = "your_telegram"
+  Name = "Duco Veen"
+  # HeaderUsername = "Duco"
+  # HeaderHostname = "gohugo.io"
+  # Email = "your_email"
+  About = "My passions lies in working together in teams to answer questions in a systematic and transparent way. When working in interdisciplinary teams large questions and projects can be taken on. My place in those teams is to help to find the optimal methodology and data analyses strategies for those projects."
+  ProfilePicture = "/Duco Veen-013.jpg"
+  Favicon = "/logo.png"
